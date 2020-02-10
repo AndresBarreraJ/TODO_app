@@ -1,0 +1,40 @@
+Searching 17792 files for "has_many"
+
+/Users/AndresBarrera/Desktop/Ruby/TODO/app/models/todo_list.rb:
+    1  class TodoList < ApplicationRecord
+    2: 	has_many :todo_items
+    3  end
+    4  
+
+/Users/AndresBarrera/Desktop/Ruby/TODO/node_modules/@rails/activestorage/README.md:
+   67  ```ruby
+   68  class Message < ApplicationRecord
+   69:   has_many_attached :images
+   70  end
+   71  ```
+
+2 matches across 2 files
+
+
+Searching 17792 files for "<p class="todo_list_sub_title">"
+
+0 matches across 0 files
+
+
+Searching 17792 files for ""todo_list_sub_title""
+
+/Users/AndresBarrera/Desktop/Ruby/TODO/app/views/todo_lists/index.html.erb:
+    2    <div class = "index_row clearfix">
+    3      <h2 class = "todo_list_title"><%= link_to todo_list.title, todo_list%></h2>
+    4:     <p class = "todo_list_sub_title"><%= todo_list.description%></p>
+    5  <% end %>
+    6  
+
+/Users/AndresBarrera/Desktop/Ruby/TODO/app/views/todo_lists/show.html.erb:
+    1  <p id="notice"><%= notice %></p>
+    2  <h2 class = "todo_list_title"><%= @todo_list.title%></h2>
+    3: <p class  = "todo_list_sub_title" ><%=@todo_list.description%></p>
+    4  
+    5  <div id = "todo_items_wrapper">
+
+2 matches across 2 files
